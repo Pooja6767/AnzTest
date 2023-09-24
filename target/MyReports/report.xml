@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="36.879">
+    <testcase classname="User Registration and Shopping Cart Test" name="Register, Add Product to Cart, and Validate Payment" time="36.717">
+        <system-out><![CDATA[Given I am on the website homepage..........................................passed
+When I click on Sign in on the landing page and Register button.............passed
+And I create an account with a random email address and personal information.passed
+And I click on the Continue button..........................................passed
+Then I should see my correct name and surname displayed on the landing screen.passed
+When I add a product to the cart............................................passed
+And I proceed to the checkout page..........................................passed
+And I continue until the payment page.......................................passed
+Then I should see that the product details are correct on the payments page.passed
+]]></system-out>
+    </testcase>
+</testsuite>

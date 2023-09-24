@@ -1,0 +1,132 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-09-24T07:55:44.347Z",
+        "line": 3,
+        "name": "Register, Add Product to Cart, and Validate Payment",
+        "description": "",
+        "id": "user-registration-and-shopping-cart-test;register--add-product-to-cart--and-validate-payment",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10415785300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the website homepage",
+            "match": {
+              "location": "StepDefination.UserRegistractionandShoppingCart.i_am_on_the_website_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7334760600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on Sign in on the landing page and Register button",
+            "match": {
+              "location": "StepDefination.UserRegistractionandShoppingCart.i_click_on_on_the_landing_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4844027100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I create an account with a random email address and personal information",
+            "match": {
+              "location": "StepDefination.UserRegistractionandShoppingCart.i_create_an_account_with_a_random_email_address()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1337287800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on the Continue button",
+            "match": {
+              "location": "StepDefination.UserRegistractionandShoppingCart.i_click_on_the_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26939300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should see my correct name and surname displayed on the landing screen",
+            "match": {
+              "location": "StepDefination.UserRegistractionandShoppingCart.i_should_see_my_correct_name_and_surname_displayed_on_the_landing_screen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5453870500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I add a product to the cart",
+            "match": {
+              "location": "StepDefination.UserRegistractionandShoppingCart.i_add_a_product_to_the_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 830176900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I proceed to the checkout page",
+            "match": {
+              "location": "StepDefination.UserRegistractionandShoppingCart.i_proceed_to_the_checkout_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1131004900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I continue until the payment page",
+            "match": {
+              "location": "StepDefination.UserRegistractionandShoppingCart.i_continue_until_the_payment_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5292636700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should see that the product details are correct on the payments page",
+            "match": {
+              "location": "StepDefination.UserRegistractionandShoppingCart.i_should_see_that_the_product_details_are_correct_on_the_payments_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User Registration and Shopping Cart Test",
+    "description": "",
+    "id": "user-registration-and-shopping-cart-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/UserRegistrationAndShoppingCart.feature",
+    "tags": []
+  }
+]
